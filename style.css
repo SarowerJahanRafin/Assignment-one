@@ -1,0 +1,210 @@
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec-1{
+    width: 100vw;
+    height: 90vh;
+}
+.half-width{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.heading p   {
+    font-size: 25px;
+    padding-left: 5px;
+
+}
+
+.heading h4{
+        font-size: 15px;
+        padding-left: 5px;
+}
+.right-part img{
+    width: 80%;
+    /* padding-left: 20px; */
+}
+
+.left-part{
+    margin: 100px 100px 30px 100px;
+}
+.main-focus{
+    font-size: 60px;
+    border-left: 4px solid ;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 1;
+    padding: 0px 10px 0px 10px ;
+    line-height: 100%;
+    border-radius: 20px;
+
+}
+.mission{
+    color:  blueviolet;
+    font-style: italic;
+}
+
+.btn {
+    padding: 5px 15px;
+    background-color: rebeccapurple;
+    font-size: 20px;
+    border-radius: 10px;
+    color: blanchedalmond;
+}
+
+.sec-2 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10vh;
+}
+
+
+.item{
+    width:25%;
+    font-family: system-ui;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
+
+}
+.item:nth-of-type(1){
+    background-color: rgba(130, 238, 229, 0.849);
+}
+.item:nth-of-type(2){
+    background-color: rgba(243, 245, 115, 0.719);
+}
+.item:nth-of-type(3){
+    background-color: rgba(238, 130, 238, 0.76);
+}
+.item img{
+    width: 50%;
+}
+.item p{
+    padding: 5px 20px;
+    font-size: 20px;
+}
+.sec-3{
+    width: 100vw;
+    height: 70vh;
+}
+/* .sec-3 div:nth-of-type(1){
+    width: 40%;
+    background-image: url(images/pictures/code.jpg);
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+} */
+ .part-1{
+    width: 40%;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+
+ }
+
+ .part-1 img{
+    width: 75%;
+    right: 0px;
+    top:0px;
+
+ }
+
+ h1{
+     font-size: 40px;
+     font-weight: 700;
+     font-style: italic;
+ }
+ p{
+     font-style: normal;
+     font-size: 23px;
+ }
+
+
+
+ /* ---------------------section-4---------------------- */
+
+ .sec-4 , .sec-3{
+     width: 90%;
+     height: 70vh;
+     padding-top: 30vh;
+ }
+ .part-3{
+     width: 40%;
+     background-image: url(images/shapes/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     font-family: monospace ;
+     /* border: 3px solid black; */
+ }
+ .part-4{
+     width: 60%;
+     padding-right: 30px;
+     /* border: 3px solid black; */
+     padding-left: 30px;
+ }
+
+ .sqrimg{
+     width: 370px;
+     height: 370px;
+     float: right;
+     border-radius: 30px
+ }
+
+ .sec-3 .part-3{
+    float: left;
+ }
+
+.goal{
+    text-align: center;
+    font-weight: 800;
+}
+
+.goal span{
+    color: tomato;
+    border-bottom: 5px solid gold;
+}
+.target{
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+     color: rgb(0, 0, 0);
+     font-family: cursive;
+}
+ .target:nth-of-type(1){
+     background-image: url(images/shapes/shape-6.png);  
+ }
+ .target:nth-of-type(2){
+     background-image: url(images/shapes/shape-5.png);  
+ }
+ .target:nth-of-type(3){
+     background-image: url(images/shapes/shape-8.png);  
+ }
+
+.sec-5{
+    width: 100%;
+    height: 75vh;
+}
+ /* ---------------footer------------------ */
+
+ footer{
+     width: 100vw;
+     height: 20vh;
+     background: black;   
+     text-align: center;
+     color: white;
+     font-style: italic;
+ }
+ footer span{
+     color: tomato;
+     font-weight: 700;
+ }
+ footer h1{
+     padding-top: 20px;
+ }
+
+ footer h4{
+     padding-bottom: 10px;
+ }
